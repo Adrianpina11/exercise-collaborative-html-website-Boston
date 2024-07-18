@@ -1,17 +1,44 @@
 <!-- your html code here -->
-<form>
+
     <div class="mb-3">
-      <label for="exampleInputEmail1" class="form-label">Email address</label>
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      <div class="row">
+        <div class="p-2 g-col-6">
+      <label for="exampleInputEmail1" class="form-label">Contact</label>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, minus ullam mollitia sed provident nam obcaecati facilis magni. Pariatur fuga enim alias earum, corrupti officiis repudiandae accusantium ad architecto rem.</p>
+      </div>
     </div>
-    <div class="mb-3">
-      <label for="exampleInputPassword1" class="form-label">Password</label>
-      <input type="password" class="form-control" id="exampleInputPassword1">
-    </div>
-    <div class="mb-3 form-check">
-      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-      <label class="form-check-label" for="exampleCheck1">Check me out</label>
-    </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
-  </form>
+  </div>
+    <div class="container mt-5">
+      <div class="row justify-content-center bg-light.bg-gradient">
+          <div class="col-md-8">
+              <div class="card">
+                  <div class="card-body">
+                      <form>
+                          <div class="form-group row">
+                              <label for="email" class="col-sm-2 col-form-label">Your E-mail</label>
+                              <div class="col-sm-10">
+                                  <input type="email" class="form-control" id="email" placeholder="Your email">
+                              </div>
+                          </div>
+                          <div class="form-group row">
+                              <label for="message" class="col-sm-2 col-form-label">Your message</label>
+                              <div class="col-sm-10">
+                                  <textarea class="form-control" id="message" rows="5" placeholder="Please enter your message here..."></textarea>
+                              </div>
+                          </div>
+                          <div class="form-group row">
+                              <div class="col-sm-10 offset-sm-2">
+                                  <button type="submit" class="btn btn-primary">Submit</button>
+                              </div>
+                          </div>
+                      </form>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
